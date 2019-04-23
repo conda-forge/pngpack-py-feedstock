@@ -10,6 +10,7 @@ temp_data = [1, 1, 3,
 bounds = pngpack.PngpackBounds(0, 360, -180, 180)
 
 pp = pngpack.Pngpack(width, height, bounds, "pp-example")
+pp.add_textfield("is_example", "1")
 
 channel = pngpack.PngpackChannel('temp', temp_data)
 channel.add_textfield("units", "degrees")
