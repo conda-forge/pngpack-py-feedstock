@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: pngpack-py
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/axiom-data-science/pngpack/archive/v{{ version }}.zip
-  sha256: df6c6011395fb36add7c184cfbea832aef32fcee21069dec63dd27842a36ab03
+  sha256: 2acf96fea9acab5c34a7e70c2d5001cc1d56a5f63873db040958b9bbec6d8fda
 
 build:
   number: 0
@@ -28,7 +28,6 @@ requirements:
 test:
   imports:
     - pngpack
-    - sys
 
 about:
   home: https://github.com/axiom-data-science/pngpack
