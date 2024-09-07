@@ -19,6 +19,7 @@ requirements:
     - {{ stdlib("c") }}
   host:
     - libpng
+    - setuptools
     - python
     - cython
     - pip
